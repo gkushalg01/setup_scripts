@@ -1,3 +1,6 @@
+# Added to notion, link -
+# https://proud-aerosteon-b68.notion.site/Setup-Ubuntu-88d230f1c59d4ef1a4fbc94b47efd6e2?pvs=4
+
 sudo apt update && sudo apt upgrade -y
 sudo apt install cmake openssh-server net-tools curl snapd ubuntu-restricted-extras gnome-tweak-tool synaptic vlc shutter open-vm-tools-desktop -y
 #skype
