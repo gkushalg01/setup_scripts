@@ -5,7 +5,7 @@ cd /home/$USER/Downloads
 
 # from apt
 sudo apt update && sudo apt-upgrade -y
-curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+curl -fsSL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 
 sudo apt install redis libuv1-dev build-essential postgresql-server-dev-all nodejs npm -y 
 
