@@ -5,7 +5,9 @@ cd /home/$USER/Downloads
 
 # from apt
 sudo apt update && sudo apt-upgrade -y
-sudo apt install redis libuv1-dev build-essential postgresql-server-dev-all -y 
+curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+
+sudo apt install redis libuv1-dev build-essential postgresql-server-dev-all nodejs npm -y 
 
 # postgres 12
 sudo apt -y install vim bash-completion wget
