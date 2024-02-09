@@ -57,6 +57,10 @@ echo LD_LIBRARY_PATH+=:/usr/local/lib:/lib >> ~/.bashrc
 
 # source devel - assuming ats_tms is in home dir
 echo "[[ -f `pwd`/src/ats_tms_service/system_config/setup.bash ]] && source `pwd`/src/ats_tms_service/system_config/setup.bash" >> ~/.bashrc
+
+sudo ln -s /usr/local/lib/libpqxx.so /usr/lib/libpqxx.so
+sudo ldconfig
+
 . ~/.bashrc
 
 
